@@ -1,8 +1,7 @@
+import axios from 'axios'
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import axios from 'axios'
 import { UserDataContext } from '../context/UserContext'
-
 
 function UserSignUp() {
   const [firstName, setFirstName] = React.useState('')
