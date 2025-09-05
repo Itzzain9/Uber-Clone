@@ -40,7 +40,9 @@ function UserSignUp() {
     <div className="p-7 flex flex-col justify-between h-screen">
       <div>
 
+        <Link to="/">
         <img className="w-16 mb-10" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="Uber_Logo" />
+        </Link>
         <form onSubmit={(e) => onSubmitHandler(e)}>
           <h3 className="text-lg font-base mb-2">What's your name</h3>
           <div className='flex gap-2.5 mb-6'>

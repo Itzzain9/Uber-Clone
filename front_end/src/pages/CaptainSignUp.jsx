@@ -24,7 +24,9 @@ function CaptainSignUp() {
     <div className="py-5 px-5 flex flex-col justify-between h-screen">
       <div>
 
+        <Link to="/">
         <img className="w-16 mb-5.5" src="https://www.svgrepo.com/show/505031/uber-driver.svg" alt="Uber_Logo" />
+        </Link>
         <form onSubmit={(e) => onSubmitHandler(e)}>
           <h3 className="text-base font-medium mb-2">Captain name</h3>
           <div className='flex gap-2.5 mb-6'>

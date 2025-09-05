@@ -20,7 +20,9 @@ function CaptainLogin() {
     <div className="p-7 flex flex-col justify-between h-screen">
       <div>
 
+        <Link to="/">
         <img className="w-20 mb-3" src="https://www.svgrepo.com/show/505031/uber-driver.svg" alt="Uber_Logo" />
+        </Link>
         <form onSubmit={(e) => onSubmitHandler(e)}>
 
           <h3 className="text-lg font-medium mb-2">What's Your email:</h3>
